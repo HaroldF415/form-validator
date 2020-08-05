@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Form Validator</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <div class="form-box">
+      <form action="/" method="post">
+        <h1 class="title">Sign up Here to Get Cool Stuff</h1>
+        <div class="form-control">
+          <label for="fname">First Name</label> <br />
+          <input
+            type="text"
+            id="fname"
+            placeholder="type first name here"
+            autofocus
+          />
+        </div>
+
+        <div class="form-control">
+          <label for="lname">Last Name</label> <br />
+          <input type="text" id="lname" placeholder="type last name here" />
+        </div>
+
+        <div class="form-control">
+          <label for="email">Email</label> <br />
+          <input type="email" id="email" placeholder="type email here" />
+        </div>
+        <button type="submit" name="submit"></button>
+        <!-- <div class="button-holder"><input type="submit" class="button" /></div> -->
+      </form>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>

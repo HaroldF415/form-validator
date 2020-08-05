@@ -1,0 +1,91 @@
+.newClass {
+  background-color: red;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+form {
+  position: absolute;
+  top: 16px;
+}
+
+input {
+  height: 30px;
+  left: 0;
+  margin: 0 6px 6px;
+  position: relative;
+  width: 360px;
+}
+
+label {
+  color: #fe91ca;
+
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  position: relative;
+  left: 5px;
+}
+.button {
+  width: 80px;
+  font-size: 1rem;
+}
+
+.button-holder {
+  margin-left: 16px;
+  width: 30px;
+}
+
+.form-box {
+  background-color: #ffe0f7;
+  width: 410px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 0px 5px 15px grey;
+}
+
+.form-control {
+  background-color: #d3dbff;
+  border: 1px solid #251f44;
+  margin: 10px;
+  width: 380px;
+  position: relative;
+  border-radius: 3.5px;
+}
+
+.title {
+  color: #fe91ca;
+  background-color: #d3dbff;
+  font-size: 1.8rem;
+  border: solid 2px #251f44;
+  border-radius: 3.5px;
+  padding: 6px;
+}
+
+#fname {
+}
+
+#lname {
+}
+
+#email {
+}
+
+#outer-box {
+  text-align: center;
+  background-color: coral;
+  width: 100vh;
+}
+
+.colors {
+  color: #ffe0f7;
+  color: #fe91ca;
+  color: #d3dbff;
+  color: #251f44;
+}
